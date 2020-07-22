@@ -60,7 +60,7 @@
 13. we can use certain element in all of the childs in the specific
         folder, you have to create a .vue file with name same as
         the folder name and add the code you want in it and add 
-        <nuxt-child /> 
+        <nuxt-child /> in it
 
 14. The name for the the layout component is default.vue and 
         in the template it has the <nuxt /> component in it
@@ -85,3 +85,6 @@
         css: [
                 '~/assets/styles/main.css'
         ],
+
+18. If you want to add anything to the head section of the html,
+        you can add it to the nuxt.config.js file.
